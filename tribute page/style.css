@@ -1,0 +1,50 @@
+
+
+   body {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgb(21, 39, 3);
+    color: rgb(255, 255, 255);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    background-color: rgb(49, 183, 0);
+    border-radius: 20px;
+    color: rgb(197, 20, 50);
+  }
+  
+  .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .content {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px; 
+  }
+  footer >p{
+
+color: rgb(0, 255, 4);
+  }
+  
+ 
